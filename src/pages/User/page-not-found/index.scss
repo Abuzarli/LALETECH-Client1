@@ -1,0 +1,62 @@
+.not-found{
+    background: linear-gradient( #0c41be, #000046); 
+    // background: linear-gradient(to right, #e52d27, #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #d31027, #ea384d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+.not-found-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.not-found-title{
+    font-size: 45px;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    line-height: 73px;
+    font-weight: 700;
+    color: white;
+   
+}
+.not-found-number{
+    font-size: 240px;
+    font-family: Oswald;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: white;
+}
+.not-found-text{
+    text-align: center;
+    font-size: 35px;
+    line-height: 73px;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 700;
+}
+.not-found-button{
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+
+    color: white;
+    font-size: 18px;
+    line-height: 29.25px;
+    padding: 14px 52px;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    transition: 1s;
+}
+.not-found-button:hover{
+    background-color: white;
+    color: #0c41be; 
+}

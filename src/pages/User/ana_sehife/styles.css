@@ -1,0 +1,185 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.swiper-slide {
+  background-image: url('./images/slide-background.jpg');
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+}
+
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 50%;
+  height: 630px;
+
+}
+.swiper-div :last-child{
+margin: 5%;
+width: 30%;
+object-fit: contain;
+}
+
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 3% 0 0 7%;
+  width: 20%;
+  object-fit: contain;
+  }
+
+  .swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 50%;
+    height: 630px;
+  }
+  .swiper-div-4 :last-child{
+    margin: 5%;
+    width: 40%;
+    object-fit: contain;
+    }
+    .swiper-div-6{
+      object-fit: contain;
+    }
+    .swiper-div-6 :first-child{
+      position: absolute;
+      top: 5rem;
+      left: 5rem;
+      width: 30%;
+      object-fit: contain;
+    }
+    .swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 2rem;
+      right: 40rem;
+      width: 12%;
+    }
+    .swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 2rem;
+      right: 25rem;
+      width: 12%;
+      /* top: 2px; */
+    }
+    .swiper-div-6 :nth-child(4){
+      position: absolute;
+      right: 4rem;
+      width: 17%;
+    }
+     .swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25rem;
+      top: 15rem;
+      width: 33%;
+    }
+    .swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 15rem;
+      right: 4rem;
+      width: 22%;
+    }
+    .swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 32rem;
+      right: 25rem;
+      width: 25%;
+    }
+    .swiper-div-6 :last-child{
+      position: absolute;
+      top: 25rem;
+      right: 3rem;
+      width: 25%;
+    }
+
+
+    @media(max-width:948px){
+
+      .swiper-div :first-child {
+        z-index: -1;
+        object-fit: contain;
+        position: absolute;
+        top:0px;
+        right: 4rem;
+        width: 80%;
+        /* height: 680px; */
+      }
+      .swiper-div :last-child {
+        width: 70%;
+        object-fit: contain;
+      }
+
+      .swiper-div-4 :first-child {
+        z-index: -1;
+        object-fit: contain;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        justify-content: flex-start;
+        width: 70%;
+      }
+      .swiper-div-4 :last-child{
+        margin: 5%;
+        width: 60%;
+        object-fit: contain;
+        }
+        .swiper-div-4 :first-child {
+            z-index: -1;
+            object-fit: contain;
+            position: absolute;
+            top: 30px;
+            right: 2px;
+            justify-content: flex-start;
+            width: 100%;
+          }
+          .swiper-div-4 :last-child{
+            margin: 5%;
+            width: 100%;
+            object-fit: contain;
+            }
+    }
+  
+    
+    

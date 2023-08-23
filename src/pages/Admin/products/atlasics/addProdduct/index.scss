@@ -1,0 +1,19 @@
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    // height: 100vh;
+}
+.add-form{
+    // border: 8px solid red;
+    margin: 0 auto;
+    padding: 30px;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

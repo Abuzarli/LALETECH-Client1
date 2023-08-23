@@ -1,0 +1,114 @@
+.project-title{
+    background-image:url('./images/projectsbg.jpg');
+    background-color: #08256a ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 30px;
+    object-fit: contain;
+    // linear-gradient(rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.667), rgba(46, 138, 251, 0.667)),
+}
+.project-title h1{
+    font-family: Oswald;
+    letter-spacing: 8px;
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    // color: black;
+}
+.project-content{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(70,70,70);
+    width: 53rem;
+    display: flex;
+    margin: 70px auto;
+    text-align: center;
+}
+.project-image{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects-content{
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-content  h4{
+    font-family: Roboto;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: #08256a;
+}
+
+.projects-content  h1{
+    font-size: 26px;
+    font-family: Roboto;
+    line-height: 33.8px;
+    font-weight: 500;
+}
+.projects-content  p{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+}
+.all-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    gap: 100px;
+}
+#project-image-2{
+height: 80vh;
+
+}
+@media(max-width:948px){
+    #project-1,#project-3,#project-5,#project-7{
+        flex-direction: column;
+    }
+    #project-2,#project-4,#project-6{
+        flex-direction: column-reverse;
+    }
+    .project-content  {
+        object-fit: contain;
+        width:90%;
+    }
+    .project-title h1{
+        font-size: 55px;
+    }
+    #project-image-1,#project-image-3,#project-image-5,#project-image-7{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #project-image-4,#project-image-6{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,30 @@
+.dropLink{
+    text-decoration: none;
+    color: black;
+    font-family:Roboto,sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.droptitle{
+    border-bottom: 3px solid #135CAE ;
+    font-family:Roboto,sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    margin: 0 0 30px;
+    font-weight: 700;    
+}
+.dropLink:hover{
+    color: #135CAE;
+    transition: all 0.3s;
+}
+.droplist{
+    list-style: none;
+    width: 130%;
+}
+.droplist li{
+    border-bottom: 1px solid #E0E0E0;
+    padding: 10px 0;
+
+}
